@@ -26,7 +26,7 @@ export const ArrowButtonStory: Story = {
 
 		const handleClick = () => {
 			setIsOpen(!isOpen);
-			// alert('Button clicked!');
+			console.log(isOpen);
 		};
 		return (
 			<>

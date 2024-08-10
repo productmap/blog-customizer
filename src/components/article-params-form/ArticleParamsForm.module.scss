@@ -25,6 +25,26 @@
 	border-right: 1px solid #000000;
 }
 
+
+.topContainer {
+	margin-bottom: 50px;
+
+	&__header {
+		font-family: Open Sans, serif;
+		font-size: 31px;
+		font-weight: 800;
+		line-height: 42px;
+		text-align: left;
+	}
+}
+
+.middleContainer {
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 50px;
+	margin-bottom: 50px;
+}
+
 .bottomContainer {
 	display: flex;
 	justify-content: space-between;
