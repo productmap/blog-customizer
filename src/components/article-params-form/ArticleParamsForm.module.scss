@@ -25,15 +25,14 @@
 	border-right: 1px solid #000000;
 }
 
-
 .topContainer {
 	margin-bottom: 50px;
 
 	&__header {
-		font-family: Open Sans, serif;
-		font-size: 31px;
 		font-weight: 800;
-		line-height: 42px;
+		font-size: 31px;
+		font-family: 'Open Sans', serif;
+		line-height: 42;
 		text-align: left;
 	}
 }
