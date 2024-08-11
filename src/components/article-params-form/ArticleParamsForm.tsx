@@ -16,6 +16,7 @@ import {
 	fontSizeOptions,
 	OptionType,
 } from 'src/constants/articleProps';
+import { Text } from 'components/text';
 
 export const ArticleParamsForm = ({
 	onStyleChange,
@@ -72,7 +73,14 @@ export const ArticleParamsForm = ({
 				)}>
 				<form className={styles.form} onSubmit={handleSubmit}>
 					<div className={styles.topContainer}>
-						<h2 className={styles.topContainer__header}>Задайте параметры</h2>
+						<Text
+							as={'h2'}
+							size={31}
+							weight={800}
+							uppercase={true}
+							align={'left'}>
+							Задайте параметры
+						</Text>
 					</div>
 					<div className={styles.middleContainer}>
 						<Select
