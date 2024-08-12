@@ -13,7 +13,13 @@
 	top: 50%;
 	right: 6px;
 	margin-top: -12px;
-	transition: transform 0.2s ease-in-out, margin-top 0.2s ease-in-out;
+	transition:
+		transform 0.2s ease-in-out,
+		margin-top 0.2s ease-in-out;
+}
+
+.arrow_open {
+	transform: rotate(0deg);
 }
 
 .placeholder {
@@ -42,8 +48,8 @@
 	outline: 3px solid #000000;
 }
 
-.selectWrapper:not([data-is-active='true'])
-	.placeholder:not([data-status='invalid']):hover {
+.selectWrapper:not([data-is-active='true']),
+.placeholder:not([data-status='invalid']):hover {
 	outline: 3px solid #000000;
 }
 
@@ -66,7 +72,6 @@
 	justify-content: flex-start;
 	align-items: center;
 	height: 30px;
-	padding: 5px;
 	padding: 15px 17px;
 	background-color: rgb(255 255 255 / 100%);
 	border: 1px;
